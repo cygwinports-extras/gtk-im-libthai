@@ -1,0 +1,9 @@
+inherit gnome2
+
+
+HOMEPAGE="http://linux.thai.net/projects/libthai"
+SRC_URI="http://linux.thai.net/pub/thailinux/software/libthai/${P}.tar.gz"
+
+PKG_NAMES="gtk2.0-immodules-libthai gtk3-immodules-libthai"
+gtk2_0_immodules_libthai_CONTENTS="etc/ usr/lib/gtk-2.0/ usr/share/doc/"
+gtk3_immodules_libthai_CONTENTS="etc/ usr/lib/gtk-3.0/"
